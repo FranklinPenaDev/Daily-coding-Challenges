@@ -1,0 +1,24 @@
+//original code: 
+
+//function buildString(...template){
+//  return `I like #{template.join(',')}!`;
+//}
+
+//my fixes:
+
+function buildString(...template){
+  return `I like {template.join(', ')}!`;
+ }
+
+//down below are the tests from the codewar
+
+// const assert = require('chai').assert
+
+
+//describe('Fixed Tests', function(){
+//  it('Fixed Tests', function(){
+//    assert.strictEqual(buildString('Cheese','Milk','Chocolate'), 'I like Cheese, Milk, Chocolate!', 'Return the correct String');
+//    assert.strictEqual(buildString('Cheese','Milk'), 'I like Cheese, Milk!', 'Return the correct String');
+//    assert.strictEqual(buildString('Chocolate'), 'I like Chocolate!', 'Return the correct String');
+//  })
+//});
