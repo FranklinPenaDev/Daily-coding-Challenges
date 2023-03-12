@@ -1,0 +1,39 @@
+function DNAStrand(dna){
+ var result= "";
+		  for(var i =0; i<dna.length; i++) 
+		  {
+        if (dna[i]==="A") 
+       {
+        result +="T";
+       }
+        else if (dna[i]==="T") 
+       {
+        result += "A";
+        }
+        else if (dna[i]==="C")
+        {
+        result +="G";
+        }
+        else if (dna[i]==="G")
+        {
+        result += "C";
+        }
+        else {
+        result +=dna[i];
+        }
+		 }
+     return result;
+}
+
+
+//const chai = require("chai");
+//const assert = chai.assert;
+//chai.config.truncateThreshold=0;
+
+//describe("Basic tests", () => {
+//  it("Testing for fixed tests", () => {
+//    assert.strictEqual(DNAStrand("AAAA"),"TTTT","String AAAA is")
+//    assert.strictEqual(DNAStrand("ATTGC"),"TAACG","String ATTGC is")
+//    assert.strictEqual(DNAStrand("GTAT"),"CATA","String GTAT is")   
+//  })
+//})
