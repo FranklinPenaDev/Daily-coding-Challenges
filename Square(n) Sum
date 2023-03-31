@@ -1,0 +1,19 @@
+function squareSum(numbers){
+ let sum = 0
+ for( let i = 0; i < numbers.length; i++){
+   sum += numbers[i] **2
+ }
+  return sum
+}
+
+//const chai = require("chai");
+//const assert = chai.assert;
+//chai.config.truncateThreshold=0;
+
+//describe("Tests", () => {
+//  it("test", () => {
+//    assert.strictEqual(squareSum([1,2]), 5);
+//    assert.strictEqual(squareSum([0, 3, 4, 5]), 50);
+//    assert.strictEqual(squareSum([]), 0);
+//  });
+//});
