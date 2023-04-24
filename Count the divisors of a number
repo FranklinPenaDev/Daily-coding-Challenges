@@ -1,0 +1,20 @@
+function getDivisorsCnt(n){
+  let num = 0;
+  for (let i = 1; i <= n; i++){
+    if ( n % i === 0 ){
+      num++
+    } 
+  }
+  return num
+}
+
+//const assert = require('chai').assert;
+
+//describe("Tests", () => {
+ // it("test", () => {
+//    assert.strictEqual(getDivisorsCnt(1),  1);
+//    assert.strictEqual(getDivisorsCnt(10), 4);
+//    assert.strictEqual(getDivisorsCnt(11), 2);
+//    assert.strictEqual(getDivisorsCnt(54), 8);
+//  });
+//});
