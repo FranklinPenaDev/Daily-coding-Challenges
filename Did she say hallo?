@@ -1,0 +1,11 @@
+function validateHello(greetings) {
+  return /(ahoj|ciao|czesc|h[ae]llo|hola|salut)/i.test(greetings)
+}
+
+//describe("Tests", () => {
+  it("test", () => {
+//Test.assertEquals(validateHello('ahoj'), true);
+
+//Test.assertEquals(validateHello('meh'), false);
+  //});
+//});
