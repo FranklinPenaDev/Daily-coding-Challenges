@@ -1,0 +1,4 @@
+function roundToNext5(n){
+  let n2 = Math.ceil(n/5)*5
+  return n2
+}
