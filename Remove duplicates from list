@@ -1,0 +1,15 @@
+function distinct(a) {
+ return [...new Set(a)];
+}
+
+//const chai = require("chai");
+//const assert = chai.assert;
+//chai.config.truncateThreshold=0;
+
+//describe("Sample Tests", () => {
+  //it("test", () => {
+    //assert.deepEqual(distinct([1]), [1]);
+    //assert.deepEqual(distinct([1,2]), [1,2]);
+    //assert.deepEqual(distinct([1,1,2]), [1,2]);
+  //});
+//});
