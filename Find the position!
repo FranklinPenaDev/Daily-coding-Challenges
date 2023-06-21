@@ -1,0 +1,5 @@
+function position(letter){
+let str = "a"
+let n = letter.charCodeAt(0) - 96;
+  return `Position of alphabet: ${n}`
+}
