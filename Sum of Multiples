@@ -1,0 +1,10 @@
+function sumMul(n,m){
+if (n >= m) return 'INVALID';
+  let total = 0;
+ let i = n;
+  while(i < m){
+    total += i;
+    i += n;
+  }
+  return total
+}
