@@ -1,0 +1,7 @@
+function sumMix(x){
+    var yessir = 0;
+  for (i = 0; i<x.length; i++) {
+    yessir += Number(x[i]);
+  }
+  return yessir;
+}
