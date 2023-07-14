@@ -1,0 +1,16 @@
+function sum(numbers){
+  let myNum = 0;
+    for(let i =0; i<numbers.length; i++){
+      myNum +=numbers[i]
+      }
+  return myNum;
+}
+
+//const Test = require('@codewars/test-compat');
+
+//describe("Tests", () => {
+  //it("test", () => {
+//Test.assertEquals(sum([]), 0);
+//Test.assertEquals(sum([1, 5.2, 4, 0, -1]), 9.2);
+  //});
+//});
