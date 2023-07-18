@@ -1,0 +1,23 @@
+function howMuchILoveYou(nbPetals) {
+  let loveOrNot = {    
+    0: "not at all",
+    1: "I love you",
+    2: "a little",
+    3: "a lot",
+    4: "passionately",
+    5: "madly"
+  }
+  return loveOrNot[nbPetals%6]
+}
+
+//const chai = require("chai");
+//const assert = chai.assert;
+//chai.config.truncateThreshold=0;
+
+//describe("howMuchILoveYou",function() {
+  //it("Basic tests",function() { 
+    //assert.strictEqual(howMuchILoveYou(7),"I love you")
+    //assert.strictEqual(howMuchILoveYou(3),"a lot")
+    //assert.strictEqual(howMuchILoveYou(6),"not at all")
+  //});
+//})
