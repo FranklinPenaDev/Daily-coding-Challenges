@@ -1,0 +1,7 @@
+function between(a, b) {
+  let num = []
+  for(let i = a; i <= b; i++){
+    num.push(i)
+  }
+  return num
+}
