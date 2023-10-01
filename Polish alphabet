@@ -1,0 +1,15 @@
+var mapping = {
+  'ą': 'a',
+  'ć': 'c',
+  'ę': 'e',
+  'ł': 'l',
+  'ń': 'n',
+  'ó': 'o',
+  'ś': 's',
+  'ź': 'z',
+  'ż': 'z',
+};
+
+function correctPolishLetters(text) {
+  return text.split('').map(c => mapping[c] || c).join('');
+}
