@@ -1,0 +1,15 @@
+function XO(str) {
+    str = str.toLowerCase();
+  var arrayOfAlphabet = str.split("");
+  var countX = arrayOfAlphabet.reduce(function(n, val){
+    return n + (val === 'x')
+  }, 0);
+  var countO = arrayOfAlphabet.reduce(function(n, val){
+    return n + (val === 'o')
+  }, 0);
+  if(countX == countO){
+    return true
+  }else{
+    return false
+  }
+}
