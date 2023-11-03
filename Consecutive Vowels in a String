@@ -1,0 +1,14 @@
+function getTheVowels(word) {
+  let vowelSequence = "aeiou";
+  let currentVowelIndex = 0;
+  let consecutiveCount = 0;
+  
+  for (letter of word) {
+    if (letter == vowelSequence[currentVowelIndex]) {
+      consecutiveCount++;
+      currentVowelIndex = (currentVowelIndex + 1) % vowelSequence.length;
+    }
+  }
+  
+  return consecutiveCount;
+}
