@@ -1,0 +1,87 @@
+tion
+1
+1
+function howManydays(month){
+2
+  var days;
+3
+  switch (month){
+4
+  case 1:
+5
+      days = 31
+6
+      break;
+7
+  case 2:
+8
+      days = 28
+9
+      break;
+10
+   case 3:
+11
+      days = 31
+12
+      break;
+13
+  case 4:
+14
+      days = 30
+15
+      break;
+16
+  case 5:
+17
+      days = 31
+18
+      break;
+19
+  case 6:
+20
+      days = 30
+21
+      break;
+22
+  case 7:
+23
+      days = 31
+24
+      break;
+25
+  case 8:
+26
+      days = 31
+27
+      break;
+28
+  case 9:
+29
+      days = 30
+30
+      break;
+31
+  case 10:
+32
+      days = 31
+33
+      break;
+34
+  case 11:
+35
+      days = 30
+36
+      break;
+37
+  case 12:
+38
+      days = 31
+39
+      break;
+40
+  }
+41
+  return days;
+42
+}
+ Excellent! You may t
