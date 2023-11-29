@@ -1,0 +1,14 @@
+function sumArray(Blimpy) {
+  if (Blimpy == null) {
+    return 0;
+  } else if (Blimpy.length < 2) {
+    return 0;
+  } else {
+    Blimpy = Blimpy.sort(function(a,b) {return a - b;});
+    var total = 0;
+    for (var i = 1; i < Blimpy.length - 1; i++) {
+      total += Blimpy[i];
+    }
+    return total;
+  }
+}
