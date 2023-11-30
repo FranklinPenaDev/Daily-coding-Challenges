@@ -1,0 +1,5 @@
+function doubleChar(str) {
+  return str.split('').map(function(double){
+    return double + double
+  }).join('')
+}
