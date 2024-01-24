@@ -1,0 +1,5 @@
+function gimmeTheLetters(sp) {
+  let letters = ""
+  for(let i = sp[0].charCodeAt(); i <= sp[2].charCodeAt(); i++) letters += String.fromCharCode(i)
+  return letters
+}
