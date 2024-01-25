@@ -1,0 +1,13 @@
+function dotCalculator(equation){
+  const num = equation.split(' ');
+  switch (num[1]){
+      case '+':
+      return '.'.repeat(num[0].length + num[2].length)
+      case '-':
+      return '.'.repeat(num[0].length - num[2].length)
+      case '*':
+      return '.'.repeat(num[0].length * num[2].length)
+      default:
+      return '.'.repeat(num[0].length / num[2].length)
+  }
+}
