@@ -1,0 +1,10 @@
+function oddOrEven(array){
+  let sum = array.reduce(function(arr, initialValue){
+    return arr + initialValue
+}, 0);
+  if(sum % 2 == 0){
+    return 'even'
+  }else{
+    return 'odd'
+  }
+}
