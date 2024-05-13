@@ -1,0 +1,5 @@
+const sum_digit_two = (x) => {
+    const firstDigit = parseInt(x / 10);
+    const lastDigit = x % 10
+    return firstDigit + lastDigit
+};
