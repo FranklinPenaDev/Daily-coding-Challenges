@@ -1,0 +1,7 @@
+const sum_digits = (a) => {
+    const lastDigit = a % 10
+    const middleDigit = Math.floor(a / 10) % 10
+    const firstDigit = Math.floor(a / 100)
+    const total = lastDigit + middleDigit + firstDigit
+        return total
+};
