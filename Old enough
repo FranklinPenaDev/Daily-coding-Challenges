@@ -1,0 +1,7 @@
+const old_enough = (age) => {
+  if( age >= 21){
+  return true
+  }else{
+    return false
+  }
+}
